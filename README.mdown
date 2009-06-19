@@ -1,7 +1,7 @@
 TextMate ActionScript 3 Bundle
 ==============================
 
-This is a fork of [Simon Gregory](http://blog.simongregory.com)s ActionScript 3 bundle, with modifications and additions by [Theo Hultberg](http://blog.iconara.net).
+This is a fork of [Simon Gregory](http://blog.simongregory.com)s [ActionScript 3 bundle](http://github.com/simongregory/actionscript3-tmbundle), with modifications and additions by [Theo Hultberg](http://blog.iconara.net).
 
 Installation
 ------------
