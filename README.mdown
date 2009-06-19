@@ -1,40 +1,22 @@
 TextMate ActionScript 3 Bundle
 ==============================
 
+This is a fork of [Simon Gregory](http://blog.simongregory.com)s ActionScript 3 bundle, with modifications and additions by [Theo Hultberg](http://blog.iconara.net).
+
 Installation
 ------------
 
-To install via Subversion:
+	cd ~/"Library/Application Support/TextMate/Bundles/"
+	git clone git://github.com/iconara/actionscript3-tmbundle.git "ActionScript 3.tmbundle"
+	osascript -e 'tell app "TextMate" to reload bundles'
 
-		export LC_CTYPE=en_US.UTF-8
-		cd ~/"Library/Application Support/TextMate/Bundles/"
-		svn co http://svn.textmate.org/trunk/Review/Bundles/ActionScript\ 3.tmbundle
-		osascript -e 'tell app "TextMate" to reload bundles'
+Source can be viewed or forked via GitHub: [http://github.com/iconara/actionscript3-tmbundle](http://github.com/iconara/actionscript3-tmbundle)
 
-To install via Git:
-
-		cd ~/"Library/Application Support/TextMate/Bundles/"
-		git clone git://github.com/simongregory/actionscript3-tmbundle.git "ActionScript 3.tmbundle"
-		osascript -e 'tell app "TextMate" to reload bundles'
-
-Source can be viewed or forked via GitHub: [http://github.com/simongregory/actionscript3-tmbundle/tree/master](http://github.com/simongregory/actionscript3-tmbundle/tree/master)
-
-Conventions
+Maintainers
 -----------
 
-ActionScript formatting follows the guidelines Adobe use for the Flex SDK. They can be found [here](http://opensource.adobe.com/wiki/display/flexsdk/Coding+Conventions).
-
-For Bundle Conventions please follow the TextMate conventions outlined [here](http://svn.textmate.org/trunk/Conventions.txt).
-
-Support
--------
-
-Please use the TextMate Users mailing list [http://lists.macromates.com/listinfo/textmate](http://lists.macromates.com/listinfo/textmate).
-
-Maintainer
-----------
-
-[Simon Gregory](http://blog.simonregory.com)
+[Simon Gregory](http://blog.simonregory.com) (original version)
+[Theo Hultberg](http://blog.iconara.net) (this fork)
 
 License
 -------
@@ -60,5 +42,7 @@ If not otherwise specified (see below), files in this project fall under the fol
 		LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 		OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 		THE SOFTWARE.
+		
+		Modifications copyright 2009 Theo Hultberg, the same licence applies.
 
 An exception is made for files in readable text which contain their own license information, or files where an accompanying file exists (in the same directory) with a “-license” suffix added to the base-name name of the original file, and an extension of txt, html, or similar.
