@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>const ${1:name}:${2:Object};</string>
+	<string>const ${1:name} : ${2:Object};</string>
 	<key>name</key>
 	<string>const</string>
 	<key>scope</key>
